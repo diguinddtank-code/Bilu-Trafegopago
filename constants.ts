@@ -12,7 +12,7 @@ export const REPORT_CONFIG = {
     investment: 525.15,        // $ Investimento Total
     conversations: 106,         // Total Conversas WhatsApp
     costPerConversation: 4.95, // $ Custo por Conversa
-    impressions: 24.870,        // Impressões
+    impressions: 24870,        // Impressões
   },
 
   // Mensagem do Gestor (Estilo notificação)

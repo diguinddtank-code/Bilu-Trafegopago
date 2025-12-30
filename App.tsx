@@ -5,6 +5,7 @@ import { MetricGrid } from './components/MetricGrid';
 import { ExpertAnalysis } from './components/ExpertAnalysis';
 import { ChartsSection } from './components/ChartsSection';
 import { AiAutomationCard } from './components/AiAutomationCard';
+import { PaymentStatus } from './components/PaymentStatus';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const LoadingScreen: React.FC = () => {
@@ -197,6 +198,9 @@ const App: React.FC = () => {
                 <AiAutomationCard />
                 
                 <ExpertAnalysis />
+                
+                {/* NEW PAYMENT STATUS SECTION */}
+                <PaymentStatus />
               </main>
 
               {/* Footer (Simplified - No CTA) */}
